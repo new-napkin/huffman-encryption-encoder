@@ -16,7 +16,7 @@ class Node implements Comparable<Node>{
 	public Node(Node l, Node r){
 		left = l;
 		right = r;
-		c='^';
+		c=0;
 	}
 
 	public int compareTo(Node other){
